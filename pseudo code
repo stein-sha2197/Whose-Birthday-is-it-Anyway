@@ -10,3 +10,11 @@ after contact is stored, user is directed back to menu
 Update a wishlist: search contacts by name, pulls up wishlist, and adds item to wishlist, quits to menu
 Search contacts: search contacts by name, birthday, address, phone, email, social handles, likes, wish list, and previous birthday gifts. Default is name.
 quit: displays goodbye message
+
+
+Class outlines
+
+class Contact
+class variables:
+attributes: first, last, pronouns, picture, birthday, address, phone, email, favorite things, previous birthday gifts, wish list
+methods: 
