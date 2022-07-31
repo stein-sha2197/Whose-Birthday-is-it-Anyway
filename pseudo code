@@ -1,0 +1,12 @@
+Pseudo code to get a program up and running. Once I learn Kivy better I can develop the app display. 
+*the app version, I'd like a calendar display
+
+greeted, told who's birthday is today, and given a menu of options
+add contact, update a wishlist, search contacts, quit
+Add contact: Creates an object. Name & pronouns, picture, birthday, address, phone, email, social handles, likes & favorite things, previous birthday gifts, wish list.
+*When viewed in the app, I want the contact object to display like a social profile page. 
+stores contact in contacts dictionary (probably)
+after contact is stored, user is directed back to menu
+Update a wishlist: search contacts by name, pulls up wishlist, and adds item to wishlist, quits to menu
+Search contacts: search contacts by name, birthday, address, phone, email, social handles, likes, wish list, and previous birthday gifts. Default is name.
+quit: displays goodbye message
