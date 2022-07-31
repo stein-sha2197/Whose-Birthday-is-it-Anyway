@@ -15,6 +15,9 @@ quit: displays goodbye message
 Class outlines
 
 class Contact
-class variables:
+
+class variables: number of contacts
+
 attributes: first, last, pronouns, picture, birthday, address, phone, email, favorite things, previous birthday gifts, wish list
+*increase number of contacts in init
 methods: 
