@@ -57,7 +57,7 @@ def mainmenu(select):
     pass
 
 def send_reminder(contact):
-    """sends reminder of to user based on user
+    """sends reminder of contact's birthday to user based on user
     preference"""
     pass
 
