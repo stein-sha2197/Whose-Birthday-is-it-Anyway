@@ -9,6 +9,7 @@ stores contact in contacts dictionary (probably)
 after contact is stored, user is directed back to menu
 Update a wishlist: search contacts by name, pulls up wishlist, and adds item to wishlist, quits to menu
 Search contacts: search contacts by name, birthday, address, phone, email, social handles, likes, wish list, and previous birthday gifts. Default is name.
+Can view contact or delete contact
 quit: displays goodbye message
 
 
