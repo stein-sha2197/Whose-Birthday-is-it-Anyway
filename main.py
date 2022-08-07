@@ -7,10 +7,27 @@ Who's Birthday is it Anyway?
 
 class User:
     """
-    creates user onject with user's name, email, phone number, user name, and password
+    creates user object with user's name, email, phone number, user name, and password
     can update info. security email if password is forgotten
     """
-    pass
+    def __init__(self, first, last, phone, email, birthday, user, password):
+        self.first = first
+        self.last = last
+        self.phone = phone
+        self.email = email
+        self.birthday = birthday
+        self.user = user
+        self.password = password
+    def change_phone(self):
+        pass
+    def change_email(self):
+        pass
+    def change_user(self):
+        pass
+    def change_password(self):
+        pass
+    def forgot_password(self):
+        pass
 
 contact_book = {}
 
