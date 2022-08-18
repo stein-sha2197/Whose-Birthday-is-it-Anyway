@@ -29,20 +29,21 @@ class User:
     def forgot_password(self):
         pass
 
-contact_book = {}
-
 class Contact:
     """
     creates a contact object
     """
     contacts = 0
-    def __init__(self, first, last, pronoun, birthday):
+    def __init__(self, first, last, birthday):
         self.first = first
         self.last = last
         self.pronoun = pronoun
         self.birthday = birthday
 
         contacts += 1
+    def add_pronoun(self):
+        "add or change pronouns"
+        pass
     def add_photo(self):
         """adds a contact photo"""
         pass
@@ -68,18 +69,36 @@ class Contact:
         """adds when user would like to be
         reminded about this contacts birthday"""
         pass
+def sign_in(user,password):
+    """sign in to app"""
+    pass
+def create_user():
+    """creates user object"""
+    pass
 
 def mainmenu(select):
     """add contact, update wishlist, search contacts"""
     pass
 
+def add_contact(first, last, birthday):
+    """creates contact object"""
+    pass
+
+def update_wish(contact, wish):
+    """add a wish to wish list"""
+    pass
+
+def search_contacts(string):
+    """searches file of saved contacts and returns the results"""
+    pass
+    
 def send_reminder(contact):
     """sends reminder of contact's birthday to user based on user
     preference"""
     pass
 
 def update_contactbook(contact):
-    """updates global dictionary with contact object"""
+    """updates a file with contact object"""
     pass
 
 def main():
