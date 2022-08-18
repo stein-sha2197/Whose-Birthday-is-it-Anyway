@@ -8,7 +8,7 @@ Who's Birthday is it Anyway?
 class User:
     """
     creates user object with user's name, email, phone number, user name, and password
-    can update info. security email if password is forgotten
+    can update info.
     """
     def __init__(self, first, last, phone, email, birthday, user, password):
         self.first = first
